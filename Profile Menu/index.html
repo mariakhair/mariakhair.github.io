@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <title>KoffeHolics</title>
+  </head>
+  
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">KoffeHolics</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+       
+          </div>
+        </nav>
+
+  	<!--Banner with Promo-->
+
+ 	 <div class="container-fluid">
+      <h2 class="display-5">KoffeHolics</h2>
+  		<p class="lead">This is where the promo will be.</p>
+ 		 
+  </div>
+
+  <!-- Menu-->  
+  <nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link round-0 text-secondary" id="nav-beverages-tab" data-toggle="tab" href="#nav-beverages" role="tab" aria-controls="nav-beverages" aria-selected="true">Beverages</a>
+    <a class="nav-item nav-link round-0 text-secondary" id="nav-lighteats-tab" data-toggle="tab" href="#nav-lighteats" role="tab" aria-controls="nav-lighteats" aria-selected="false">Light Eats</a>
+    <a class="nav-item nav-link round-0 text-secondary" id="nav-maineats-tab" data-toggle="tab" href="#nav-maineats" role="tab" aria-controls="nav-maineats" aria-selected="false">Mains</a>
+    <a class="nav-item nav-link round-0 text-secondary" id="nav-dessert-tab" data-toggle="tab" href="#nav-dessert" role="tab" aria-controls="nav-dessert" aria-selected="false">Dessert</a>
+  </div>
+</nav>
+
+<!-- End of Nav Bar-->
+
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-beverages" role="tabpanel" aria-labelledby="nav-beverages-tab">
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header bg-white" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-secondary" data-toggle="collapse" data-target="#koffee" aria-expanded="true" aria-controls="koffee">
+                Koffee
+              </button>
+            </h5>
+          </div>
+      
+          <div id="koffee" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                            <a href="#" class="list-group-item text-secondary">Espresso <div class="text-right">RM 7.00</div></a>
+                            <a href="#" class="list-group-item text-secondary">Americano <div class="text-right">RM 9.00</div></a>
+                            <a href="#" class="list-group-item text-secondary">Picollo <div class="text-right">RM 7.50</div>
+                              <div class="d-flex align-items-end"><small>Short Latte</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Macchiato <div class="text-right">RM 12.00</div>
+                              <div class="d-flex align-items-end"><small>Espresso served with a dollop of foamed milk</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Flat White <div class="text-right">RM 12.00</div>
+                              <div class="d-flex align-items-end"><small>Espresso with steamed milk</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Café Latte <div class="text-right">RM 12.00</div></a>
+                            <a href="#" class="list-group-item text-secondary">Cappucino <div class="text-right">RM 12.00</div></a>
+                            <a href="#" class="list-group-item text-secondary">Café Mocha <div class="text-right">RM 14.00</div></a>
+                            <a href="#" class="list-group-item text-secondary">Affogato <div class="text-right">TBA</div>
+                              <div class="d-flex align-items-end"><small>Espresso with Single Scoop Ice Cream</small></div>
+                            </a>
+                          </div>  
+
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-white" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#premiumteas" aria-expanded="false" aria-controls="premiumteas">
+                Premium Teas
+              </button>
+            </h5>
+          </div>
+          <div id="premiumteas" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                            <a href="#" class="list-group-item text-secondary">Azteca d'Oro <div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Organic South African Bush Tea with Madagascar Cacao & Caramel</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">British Breakfast Tea <div class="text-right">RM 8.00</div>
+                                <div class="align-self-end"><small>Black Tea Blend of Assam, Kenyan & Ceylon</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Chamomile Dream <div class="text-right">RM 8.00</div>
+                                <div class="align-self-end"><small>Herbal Tisane of Chamomile & Marigold</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Copa Cabana<div class="text-right">RM 8.00</div>
+                                <div class="align-self-end"><small>Organic South African Bush Tea with Pineapple, Mango & Basil</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Earl Grey Lavender <div class="text-right">RM 8.00</div>
+                              <div class="align-self-end"><small>Black Tea with Oil of Bergamot & Lavender</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Hanami <div class="text-right">RM 8.00</div>
+                              <div class="align-self-end"><small>Japanese Sencha with Cherry Blossoms to celebrate spring</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Lemon Ginger Mint<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Herbal Tisane of Peppermint & Lemon Myrtle</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Marrakesh Mint <div class="text-right">RM 8.00</div>
+                              <div class="align-self-end"><small>Green Tea with Mint & Lemongrass</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Mogambo <div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Organic South African Bush Tea with Passionfruit & Apple</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">Nymph Of The Nile <div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Organic White Peony Tea with Persian Rose & Egyptian Basil</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">Osmanthus Sencha<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Steamed Green Tea with Osmanthus</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">Pearl of The Orient<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Jasmine Dragon Pearl Green Tea with Morroccan Rose</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">Straits Chai<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Sumatran Black Tea with Spices from The Orient</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">Tomatino<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Organic South African Bush Tea with Tomato & Carrot</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">White Gingerlily<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Organic White Peony Tea with Thai Galangal & Lemongrass</small></div>
+                           </a>
+                           <a href="#" class="list-group-item text-secondary">Lily Of The Field<div class="text-right">RM 8.00</div>
+                             <div class="align-self-end"><small>Four Seasons Oolong Tea with White Lily & Eucalyptus</small></div>
+                           </a>
+                          </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-white" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#kofeealt" aria-expanded="false" aria-controls="kofeealt">
+                Koffee Alternatives
+              </button>
+            </h5>
+          </div>
+          <div id="kofeealt" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                            <a href="#" class="list-group-item text-secondary">Signature Chocolate <div class="text-right">RM 12.00</div>
+                               <div class="align-self-end"><small>56% Premium Dark Cocoa with Panela Sugar</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Americano <div class="text-right">RM 14.00</div>
+                              <div class="align-self-end"><small>Natural Hand Crafted Chai Masala Blend</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Picollo <div class="text-right">RM 14.00</div>
+                               <div class="align-self-end"><small>Unsweetened</small></div>
+                            </a>
+                            <a href="#" class="list-group-item text-secondary">Macchiato <div class="text-right">RM 14.00</div>
+                               <div class="align-self-end"><small>Chocolate with a hint of Mint</small></div>
+                            </a>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header bg-white" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#syrup" aria-expanded="false" aria-controls="syrup">
+                Syrup
+              </button>
+            </h5>
+          </div>
+          <div id="syrup" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item text-secondary">Toffee Nut<div class="text-right">RM 2.00</div></a>
+                       <a href="#" class="list-group-item text-secondary">Salted Caramel <div class="text-right">RM 2.00</div></a>
+                       <a href="#" class="list-group-item text-secondary">Roasted Hazlenut <div class="text-right">RM 2.00</div></a>
+                       <a href="#" class="list-group-item text-secondary">Vanila<div class="text-right">RM 2.00</div></a>
+                       <a href="#" class="list-group-item text-secondary">Frosted Mint<div class="text-right">RM 2.00</div></a>
+                       <a href="#" class="list-group-item text-secondary">Coconut with Pandan<div class="text-right">RM 2.00</div></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header bg-white" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#beverages" aria-expanded="false" aria-controls="beverages">
+                Beverages
+              </button>
+            </h5>
+          </div>
+          <div id="beverages" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item text-secondary">Bottled Water<div class="text-right">RM 2.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Coca-Cola<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Coke Light<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Coke Zero<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Vanilla Coke<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Sprite<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">A&W Sarsaparilla<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Aquarious<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Heaven & Earth Ice Lemon Tea<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Heaven & Earth Mango Tea<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Heaven & Earth Passionfruit Tea<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Heaven & Earth Chrysanthemum<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Heaven & Earth Jasmine Green Tea<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Heaven & Earth Ayataka Green Tea<div class="text-right">RM 3.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Schweppes Ginger Ale<div class="text-right">RM 3.20</div></a>
+                      <a href="#" class="list-group-item text-secondary">Schweppes Bitter Lemon<div class="text-right">RM 3.20</div></a>
+                      <a href="#" class="list-group-item text-secondary">Orange Juice<div class="text-right">RM 6.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Apple Juice<div class="text-right">RM 6.00</div></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+  <div class="tab-pane fade" id="nav-lighteats" role="tabpanel" aria-labelledby="nav-lighteats-tab">
+
+    <div class="card">
+      <div class="card-header bg-white" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#greens" aria-expanded="false" aria-controls="greens">
+            Greens
+          </button>
+        </h5>
+      </div>
+      <div id="greens" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+        <div class="card-body">
+                <div class="list-group">
+                  <a href="#" class="list-group-item text-secondary">Garden Salad<div class="text-right">RM 7.00</div></a>
+                  <a href="#" class="list-group-item text-secondary">Garden Salad with Pear<div class="text-right">RM 14.00</div></a>
+                  <a href="#" class="list-group-item text-secondary">Garden Salad with Apples<div class="text-right">RM 14.00</div></a>
+                  <a href="#" class="list-group-item text-secondary">Baked Chicken Salad<div class="text-right">RM 6.00</div></a>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header bg-white" id="headingSix">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#croissant" aria-expanded="false" aria-controls="croissant">
+              Croissant Sandwiches
+            </button>
+          </h5>
+        </div>
+        <div id="croissant" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+          <div class="card-body">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item text-secondary">Omelette & Cheese<div class="text-right">RM 10.00</div></a>
+                    <a href="#" class="list-group-item text-secondary">Scrambled Eggs & Cheese<div class="text-right">RM 10.00</div></a>
+                    <a href="#" class="list-group-item text-secondary">Smoked Turkey & Cheese<div class="text-right">RM 10.00</div></a>
+                    <a href="#" class="list-group-item text-secondary">Tuna Mayo & Cheese<div class="text-right">RM 12.00</div></a>
+                    <a href="#" class="list-group-item text-secondary">Turkey, Egg & Cheese<div class="text-right">RM 12.00</div></a>
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+          <div class="card-header bg-white" id="headingSeven">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#toasties" aria-expanded="false" aria-controls="toasties">
+                Toasties
+              </button>
+            </h5>
+          </div>
+          <div id="toasties" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item text-secondary">Herb, Cheese & Tomato<div class="text-right">RM 9.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Scrambled Eggs<div class="text-right">RM 12.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Fried Eggs<div class="text-right">RM 12.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Smoked Turkey Slice<div class="text-right">RM 14.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Tuna Mayo<div class="text-right">RM 14.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Mushroom<div class="text-right">RM 14.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Streaky Beef<div class="text-right">RM 16.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Baked Chicken Breast<div class="text-right">RM 16.00</div></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-white" id="headingEight">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#brekkie" aria-expanded="false" aria-controls="brekkie">
+                  All Day Brekkie
+                </button>
+              </h5>
+            </div>
+            <div id="brekkie" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+              <div class="card-body">
+                      <div class="list-group">
+                        <a href="#" class="list-group-item text-secondary">Scrambled Eggs & Toast<div class="text-right">RM 10.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Smoked Turkey, Scrambled Eggs & Toast<div class="text-right">RM 14.00</div></a>
+                      </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+              <div class="card-header bg-white" id="headingNine">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#pastries" aria-expanded="false" aria-controls="pastries">
+                    Fresh Baked Pastries
+                  </button>
+                </h5>
+              </div>
+              <div id="pastries" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                <div class="card-body">
+                        <div class="list-group">
+                          <a href="#" class="list-group-item text-secondary">Mini Croissant<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Chocolate Roll<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Apple Strudel<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Pineapple Strudel<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Kaya Whirl<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Cinnamon Whirl<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Chicken Curry Puff<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Mushroom Chicken Puff<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Miniature Tuna Puff<div class="text-right">RM 2.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Donut<div class="text-right">RM 4.50</div></a>
+                          <a href="#" class="list-group-item text-secondary">Croissant<div class="text-right">RM 6.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Salmon Puff<div class="text-right">RM 6.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Fire Cracker Sausage<div class="text-right">RM 6.50</div></a>
+                          <a href="#" class="list-group-item text-secondary">Salted Egg Croissant<div class="text-right">RM 7.50</div></a>
+                          <a href="#" class="list-group-item text-secondary">Chocolate Croissant<div class="text-right">RM 7.50</div></a>
+                        </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-white" id="headingTen">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#soup" aria-expanded="false" aria-controls="soup">
+                      Soup
+                    </button>
+                  </h5>
+                </div>
+                <div id="soup" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                  <div class="card-body">
+                          <div class="list-group">
+                            <a href="#" class="list-group-item text-secondary">Mushroom<div class="text-right">RM 8.00</div></a>
+                          </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                  <div class="card-header bg-white" id="headingEleven">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#sides" aria-expanded="false" aria-controls="sides">
+                        Add-Ons/Sides
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="sides" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                    <div class="card-body">
+                            <div class="list-group">
+                              <a href="#" class="list-group-item text-secondary">Butter<div class="text-right">RM 1.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Marmalade<div class="text-right">RM 1.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Strawberry Jam<div class="text-right">RM 1.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Cheese<div class="text-right">RM 2.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Hard Boild<div class="text-right">RM 2.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Fried Egg<div class="text-right">RM 2.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Mini Salad<div class="text-right">RM 4.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Omelette<div class="text-right">RM 5.00</div></a>
+                              <a href="#" class="list-group-item text-secondary">Scrambled Eggs<div class="text-right">RM 5.00</div></a>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+
+
+  </div>
+  <div class="tab-pane fade" id="nav-maineats" role="tabpanel" aria-labelledby="nav-maineats-tab">
+
+      <div class="card">
+          <div class="card-header bg-white" id="headingTwelve">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#lunchspecials" aria-expanded="false" aria-controls="lunchspecials">
+                Daily Lunch Specials
+              </button>
+            </h5>
+          </div>
+          <div id="lunchspecials" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item text-secondary">Curry Laksa <em>(Mondays)</em><div class="text-right">RM 15.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Nyona Laksa <em>(Tuesdays)</em><div class="text-right">RM 15.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Sarawak Laksa <em>(Wednesday)</em><div class="text-right">RM 15.00</div></a>
+                      <a href="#" class="list-group-item text-secondary">Ipoh Hor Fun <em>(Thursday)</em><div class="text-right">RM 15.00</div></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-white" id="headingThirteen">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#pastas" aria-expanded="false" aria-controls="pastas">
+                  Pastas
+                </button>
+              </h5>
+            </div>
+            <div id="pastas" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+              <div class="card-body">
+                      <div class="list-group">
+                        <a href="#" class="list-group-item text-secondary">Salted Egg with Smoked Duck <div class="text-right">RM 15.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Masak Lemak with Streaky Beef<div class="text-right">RM 15.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Pesto with Baked Chicken<div class="text-right">RM 15.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Chicken Bolognese<div class="text-right">RM 15.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Turkey Ham Cabonara<div class="text-right">RM 15.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Roasted Sesame with Mushroom<div class="text-right">RM 15.00</div></a>
+                      </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+              <div class="card-header bg-white" id="headingFourteen">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#rice" aria-expanded="false" aria-controls="rice">
+                    Rice Bowl
+                  </button>
+                </h5>
+              </div>
+              <div id="rice" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+                <div class="card-body">
+                        <div class="list-group">
+                          <a href="#" class="list-group-item text-secondary">Thai Basil Chicken<div class="text-right">RM 15.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Pan Fried Chicken Bulgogi<div class="text-right">RM 15.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Chicken Fried Rice<div class="text-right">RM 15.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Kampung Fried Rice<div class="text-right">RM 15.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Tumeric Chicken Curry<div class="text-right">RM 15.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Szechuan Kung Pao Chicken<div class="text-right">RM 15.00</div></a>
+                          <a href="#" class="list-group-item text-secondary">Mongolian Chicken<div class="text-right">RM 15.00</div></a>
+                        </div>
+                </div>
+              </div>
+            </div>
+
+  </div>
+
+  <div class="tab-pane fade" id="nav-dessert" role="tabpanel" aria-labelledby="nav-dessert-tab">
+
+      <div class="card">
+          <div class="card-header bg-white" id="headingFifteen">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#waffles" aria-expanded="false" aria-controls="waffles">
+                Waffles
+              </button>
+            </h5>
+          </div>
+          <div id="waffles" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
+            <div class="card-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item text-secondary">Peanut Butter<div class="text-right">RM 5.50</div></a>
+                      <a href="#" class="list-group-item text-secondary">Chocolate<div class="text-right">RM 5.50</div></a>
+                      <a href="#" class="list-group-item text-secondary">Strawberry Jam<div class="text-right">RM 5.50</div></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-white" id="headingSixteen">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed text-secondary" data-toggle="collapse" data-target="#icecream" aria-expanded="false" aria-controls="icecream">
+                  Ice Cream
+                </button>
+              </h5>
+            </div>
+            <div id="icecream" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion">
+              <div class="card-body">
+                      <div class="list-group">
+                        <a href="#" class="list-group-item text-secondary">Coconut<div class="text-right">RM 4.00</div></a>
+                        <a href="#" class="list-group-item text-secondary">Vanilla<div class="text-right">RM 4.00</div></a>
+                      </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+  </body>
+</html>

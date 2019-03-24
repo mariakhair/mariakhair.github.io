@@ -1,0 +1,46 @@
+/*
+
+Body Text Color: #303030
+App Primary Color: #43E695
+Secondary Color: #00928F
+
+Remember to add icons and change font 
+
+*/
+
+.navbar-brand{
+	font-size: 10pt;
+
+}
+
+.text-secondary{
+	color: 303030 !important;
+}
+
+.container-fluid{
+	padding-top: 80px;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	background-image: url("images/koffeholics_banner.jpg");
+	background-size: cover;
+}
+
+h2, p{
+	color: white;
+}
+
+
+.list-group{
+	width: 100%;
+	color: 303030;
+}
+
+.card-body{
+	padding: 0px;
+}
+
+.text-right{
+	float: right;
+}
+

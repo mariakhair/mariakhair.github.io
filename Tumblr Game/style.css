@@ -1,0 +1,37 @@
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lavenderblush;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#button-container{
+    display:flex;
+    justify-content: center;
+}
+
+#win-state{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+#lose-state{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+
+#resetButton{
+    display:flex;
+    justify-content: center;
+}
+#image-container{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+
+
+}

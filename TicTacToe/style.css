@@ -1,0 +1,70 @@
+
+  
+#wrapper{
+  width: 500px;
+  margin: 0 auto;
+  height: 500px;
+  padding: 50px;
+  border: solid 3px black;
+  background-image: url(images/bg_image.jpg);
+  background-size: 800px 800px;
+  margin-top: 25px;
+}
+
+
+
+.content{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#board div {
+  float: left;
+  height: 120px;
+  width: 120px;
+  box-sizing: border-box;
+  border: solid 3px black;
+  display: inline-block;
+  margin: 3px;
+  font-size: 3em;
+  text-align: center;
+  line-height: 120px;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: lavenderblush;
+
+  
+}
+
+#board div:nth-child(3n+1) {
+  clear: both;
+}
+
+#result{
+  font-size: 18pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#resetButton{
+  clear: both;
+  height: 100px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+#resetGame {
+  width: 100px;
+  height: 40px;
+  font-size: 10pt;
+  background-color: lightskyblue;
+
+}
+
