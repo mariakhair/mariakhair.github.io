@@ -15,6 +15,7 @@ let winCombos = [
     [2,4,6] // Diagonal
 ]
 
+
 const resultMessage = document.getElementById('result')
 
 function checkWin(player){
@@ -33,22 +34,23 @@ function checkWin(player){
 }
 
 board.addEventListener('click', function(event){
+  
     if (event.target.innerHTML == '' & winner == false){
+        if (count == 1) {
+            document.getElementById('result').innerHTML = "It's a TIE!"
+           
+        }
+        count--  
+        turn++
+        
         if (turn % 2 == 0){
             event.target.innerHTML = 'X'
             checkWin('X')
         } else {
             event.target.innerHTML = 'O'
             checkWin('O')
-    
-        
-        }
-        if (count == 1) {
-            document.getElementById('result').innerHTML = "It's a Tie!"
-       
-        }
-        count -- 
-        turn++
+            
+        } 
     }
     
 })
@@ -58,7 +60,4 @@ const restartGame = document.getElementById('resetGame')
 restartGame.addEventListener('click', function() {
     window.location.reload()
 })
-
-
-
 
